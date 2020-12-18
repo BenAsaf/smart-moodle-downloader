@@ -1,0 +1,17 @@
+body {
+	height: fit-content;
+}
+
+html {
+	height: fit-content;
+}
+
+
+#head {
+	float: top;
+}
+
+#version {
+	float:left;
+	color: gray;
+}

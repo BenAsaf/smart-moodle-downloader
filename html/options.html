@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Options</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap-theme.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/options.css">
+
+    <script src="../js/lib/jquery-1.11.2.min.js"></script>
+    <script src="../js/lib/bootstrap.min.js"></script>
+    <script src="../js/options.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="text-center">
+                <img src="../icons/icon128.png">
+            </div>
+            <div class="text-center">
+                <h4 class="text-info">Smart Moodle Downloader - Options</h4>
+            </div>
+        </div>
+        <hr>
+
+        <div class="row text-center">
+            <span class="text-primary">Language:</span>
+            <label>
+                <select class="carousel" id="inputSelectedLanguage">
+                    <option value="Hebrew">Hebrew</option>
+                    <option value="English">English</option>
+                </select>
+            </label>
+        </div>
+
+        <div class="row text-center">
+            <span class="text-primary">Inject custom buttons:</span>
+            <input class="checkbox-inline" type="checkbox" id="inputInjectCustomButtons" value="ok">
+        </div>
+
+        <div class="row text-center">
+            <span class="text-primary">Number of concurrent video downloads:</span>
+            <input class="form-inline" type="number" name="quantity" min="1" max="5" id="inputNumOfConcurrentVideoDownloads">
+        </div>
+
+
+
+        <hr>
+        <div class="row text-center">
+            <button id="btnSaveOptions" class="btn-lg btn-primary">Save</button>
+        </div>
+
+    </div>
+
+</body>
+</html>

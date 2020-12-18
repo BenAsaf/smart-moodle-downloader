@@ -1,0 +1,18 @@
+/*body {*/
+/*	height: fit-content;*/
+/*	width: fit-content;*/
+/*}*/
+
+/*html {*/
+/*	height: available;*/
+/*}*/
+
+
+#head {
+	float: top;
+}
+
+#version {
+	float:left;
+	color: gray;
+}

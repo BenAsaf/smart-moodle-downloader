@@ -1,0 +1,59 @@
+{
+    "manifest_version": 2,
+    "name": "Smart Moodle Downloader",
+    "short_name": "Smart Moodle Downloader",
+    "description": "Downloads a Moodle videos and courses files",
+    "version": "1.00",
+
+    "icons": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    },
+    "browser_action": {
+        "default_icon": "icons/icon24.png",
+        "default_popup": "html/popup.html",
+        "default_title": "Smart Moodle Downloader"       
+    },
+    "options_page": "html/options.html",
+
+    "content_scripts": 
+    [
+        {
+            "matches": ["*://*.ac.il/*course/*"], 
+            "js": [
+                "js/lib/jquery-1.11.2.min.js",
+                "js/moodle_utils.js", "./js/general_utils.js",
+                "content.js"],
+            "run_at": "document_end"
+        },
+        {
+            "matches": ["*://*.ac.il/nu*/"], 
+            "js": [
+                "js/lib/jquery-1.11.2.min.js",
+                "js/moodle_utils.js", "./js/general_utils.js",
+                "content2.js"],
+            "run_at": "document_end"
+        },
+        {
+            "matches": ["*://www.streamitupcdn.net/*"],
+            "js": ["./js/general_utils.js", "content_streamitup.js"],
+            "run_at": "document_end"
+        }
+    ],
+    "externally_connectable": {
+        "matches": ["*://*.streamitupcdn.net/*"]
+    },
+    "background": {
+        "scripts": ["./js/general_utils.js", "background_tabs_utils.js", "background.js"],
+        "persistent": false
+    },
+    "permissions": [
+        "*://*.ac.il/*cs/*",
+        "*://*.streamitupcdn.net/*_db/*",
+        "downloads",
+        "tabs",
+        "storage"
+    ],
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}
