@@ -1,6 +1,6 @@
 # Smart Moodle Downlaoder
 
-A simple yet smart extension to help you download content of Moodle courses.  
+Google Chrome extension. A simple yet smart extension to help you download content of Moodle courses.
 
 ## Features
 - Download the content of all courses in Moodle you are signed for.
@@ -15,7 +15,7 @@ A simple yet smart extension to help you download content of Moodle courses.
  
 ## Getting Started
 - Clone the project using: ```git clone https://github.cs.huji.ac.il/hivemind/group_project.git```
-(alternatively download and extract zip folder from: https://github.cs.huji.ac.il/hivemind/group_project/archive/master.zip)
+(alternatively download and extract zip folder)
 - Go into `chrome://extentions` (alternatively click the 3 dots in Chrome, More Tools and Extensions) and turn Developer Mode on.
 - Click `Load unpacked extention...` and select the project folder  
 
@@ -32,10 +32,10 @@ This extension was written and tested for Hebrew University's 2019 Moodle (https
 support other versions of Moodle as well so if you happen to use a version that doesn't seem to be supported or have any bugs/features to report please open an issue.
  
 ## Authors
-* **Shimon Berkovich**
-* **Elad Shoham**
-* **David Pitts**
-* **Ben Asaf**
+* **Ben Asaf** (Continuing the project)
+* **Elad Shoham** (inactive)
+* **Shimon Berkovich** (inactive)
+* **David Pitts** (inactive)
 
 Continuing the work of:
 
