@@ -14,8 +14,8 @@ Google Chrome extension. A simple yet smart extension to help you download conte
 - Have an option for UI in English
  
 ## Getting Started
-- Clone the project using: ```git clone https://github.cs.huji.ac.il/hivemind/group_project.git```
-(alternatively download and extract zip folder)
+- Clone the project using: ```git clone https://github.com/BenAsaf/smart-moodle-downloader.git```
+(alternatively download and extract zip folder using https://github.com/BenAsaf/smart-moodle-downloader/archive/main.zip)
 - Go into `chrome://extentions` (alternatively click the 3 dots in Chrome, More Tools and Extensions) and turn Developer Mode on.
 - Click `Load unpacked extention...` and select the project folder  
 
@@ -32,8 +32,8 @@ This extension was written and tested for Hebrew University's 2019 Moodle (https
 support other versions of Moodle as well so if you happen to use a version that doesn't seem to be supported or have any bugs/features to report please open an issue.
  
 ## Authors
-* **Ben Asaf** (Continuing the project)
-* **Elad Shoham** (inactive)
+* **Ben Asaf** tobenasaf@gmail.com (Continuing the project)
+* **Elad Shoham** eladshoham93@gmail.com (inactive)
 * **Shimon Berkovich** (inactive)
 * **David Pitts** (inactive)
 
